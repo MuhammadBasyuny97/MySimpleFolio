@@ -26,6 +26,7 @@
     "prettier": "^2.4.1"
   },
   "scripts": {
+     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
